@@ -1,0 +1,25 @@
+html,body {
+    background-color: #171717;
+    height: 100%;
+    margin: 0;
+}
+      
+h1 {
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .row.header {
+    flex: 0 1 auto;
+}
+.box .row.content {
+    flex: 1 1 auto;
+}
+.box .row.footer {
+    flex: 0 1 40px;
+}
